@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header section starts -->
+
+<header>
+    <div class="user">
+        <img src="images/pic.jpg" alt="">
+        <h3 class="name">Pratiksha Gote</h3>
+        <p class="post">Python developer</p>    
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- header section ends -->
+<div id="menu" class="fas fa-bars"></div>
+<!-- home section starts -->
+<section class="home" id="home">
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Pratiksha Gote</span></h1>
+    <p>And I am a <span class="multiple-text">Python Developer</span></p>
+    <a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button></a>
+
+
+</section>
+<!-- home section ends -->
+
+<!-- about section starts -->
+<section class="about" id="about">
+<h1 class="heading"> <span>about</span> me </h1>
+<div class="row">
+    <div class="info">
+        <h3>I am student of Computer Science Engineering.I am currently pursuing my Bachelor of engineering degree in Computer Engineering from SPPU university at Modern Education Society's College Of Engineering.I am also interested in Web Development.I love to work in different frameworks and to create websites.</h3>
+        <a href="Pratiksha Gote.pdf" download=""><button class="btn"> Download CV <i class="fas fa-download"></i>
+        </button></a>
+    </div>
+</div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+<h1 class="skills_name">Skills</h1>
+<div class="skills__container">
+    <div class="skills__box">
+        <span class="skills__name">Python</span>
+        <span class="skills__name">Django</span>
+        <span class="skills__name">Html</span>
+        <span class="skills__name">Css</span>
+        <span class="skills__name">Javascript</span>
+        <span class="skills__name">Bootstrap</span>
+        <br>
+        <br>
+        <span class="skills__name">MySQL</span>
+        <span class="skills__name">jquery</span>
+        
+    </div>
+</div>
+</section>
+<!-- skills section ends -->
+
+<!-- Project section starts -->
+<section class="projects" id="projects">
+    <h1 class="heading">My <span>Projects</span></h1>
+    <br>
+    <br>
+    <br>
+    <div class="project-container">
+        <div class="project-box">
+            <img src="images/Picture1.png" alt="">
+            <div class="project-layer">
+                <h4>Online Grocery Store</h4>
+                <p><b>A software application is way of buying Fruits and Vegetables built using 
+                    HTML, CSS, Bootstrap, JavaScript, Python and Django</b></p>
+                <a href="#"><i class="fa fa-external-link"></i></i></a>
+            </div>
+        </div>
+        <div class="project-box">
+            <img src="images/Picture2.png" alt="">
+            <div class="project-layer">
+                <h4>Image Caption Generator</h4>
+                <p><b>A application for users that automatically generate the description of an image with the use of CNN and LSTM.</b>
+                </p>
+                <a href="#"><i class="fa fa-external-link"></i></a>
+            </div>
+        </div>
+        <div class="project-box">
+            <img src="images/Picture3.png" alt="">
+            <div class="project-layer">
+                <h4>Face Mask Detection</h4>
+                <p><b>Face mask detection is used to distinguish between faces with masks and 
+                    faces without mask by using Machine Learning in Python.</b>
+                </p>
+                <a href="#"><i class="fa fa-external-link"></i></a>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+
+    </div>
+</section>
+<!-- project section ends -->
+<!-- Portfolio section starts -->
+<section class="portfolio" id="portfolio">
+    <h1 class="heading">My <span>Portfolio</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/firstbit.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/LGM.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/Race.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/IETE.png" alt="">
+        </div>
+    </div>
+</section>
+<!-- portfolio section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Contact </span> me</h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">Contact info</h3>
+            <div class="info">
+                <h3> <i class="fas fa-envelope"></i> gotepratiksha07@gmail.com</h3>
+                <h3> <i class="fas fa-phone"></i> +91 8530766787</h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Pune, India - 411015. </h3>
+            </div>
+        </div>
+        <!-- <form action="" onsubmit="sendEmail(); reset(); return false;"> -->
+        <form action="https://formsubmit.co/460e5aa8cedd62ec1464c4f7b6ff782f" method="POST">
+            <input type="text" placeholder="Name" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="text" placeholder="Email subject" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+            <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+
+</section>
+<!-- contact section ends -->
+<!-- scroll top button -->
+
+<!--jQuery js file link   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- custom js file link -->
+<script src="script.js"></script>
+
+<!-- typed js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</body>
+<script src=" https://smtpjs.com/v3/smtp.js"></script>
+
+</html>
